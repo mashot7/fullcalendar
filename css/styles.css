@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+#calendar {
+	width: 610px;
+	font-family: Open Sans, serif;
+	margin: 0 auto;
+
+}
+
+#calendar .fc-right h2 {
+	text-align: center;
+	font: 600 12px/17px Open Sans;
+	letter-spacing: 0;
+	color: #414849;
+	opacity: 1;
+	margin: 4px 0 0;
+}
+
+#calendar .fc-button {
+	margin: 0 !important;
+	padding: 0 !important;
+	color: #414849;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+#calendar .fc-right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.fc-toolbar.fc-header-toolbar {
+	margin-bottom: 15px;
+}
+
+td.fc-today {
+	background: transparent !important;
+}
+
+th.fc-today {
+	background: #1663D5;
+	color: #FFFFFF;
+}
+
+.fc-day-header {
+	letter-spacing: 0;
+	font: 400 12px/20px Open Sans;
+	opacity: 1;
+	text-align: center;
+	color: #414849;
+}
+
+.fc-time {
+	font: 400 12px/20px Open Sans;
+	letter-spacing: 0;
+	color: #414849;
+	opacity: 1;
+	text-align: center;
+}
+
+tr[data-time="10:30:00"] td.fc-time, tr[data-time="11:00:00"] td.fc-time, tr[data-time="11:30:00"] td.fc-time {
+	background: #1663D5 0 0 no-repeat padding-box;
+	text-align: center;
+	font: 400 12px/20px Open Sans;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+	border: none;
+}
+
+.fc-time-grid-event.fc-event {
+	text-align: center;
+	font: 600 12px/18px Open Sans;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0 !important;
+}
+.fc-button .fc-icon {
+	font-size: 16px;
+}
